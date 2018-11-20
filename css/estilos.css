@@ -1,0 +1,208 @@
+body{
+	font: 15px Arial, Helvetica;
+	padding: 0;
+	margin: 0;
+	background-color: #005883;
+}
+/* Estilos Globales */
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.boton1{
+	height: 50px
+	background-color: #ff0000;
+	border: 20;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+/* Encabezado */
+header{
+	background-color: #F0B429;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 10px solid #B3B3B3;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float:left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #marca{
+	float: left;
+}
+header #marca h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px
+}
+header .resaltado, header .actual a{
+	color: #005883;
+	font-weight: bold;
+}
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+/*cabecera imagen*/
+#cabecera{
+	min-height: 400px;
+	background: url('../img/cabecera.jpg') no-repeat 0 -400px;
+	text-align:center;
+	color: #fff;
+	margin-left:150px;
+}
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+/*formulario matriculas*/
+#matriculas{
+	padding: 0px;
+	color: #fff;
+	background: #F47920;
+	margin-top: 20px;
+}
+#matriculas h1{
+	float:left;
+}
+#matriculas form{
+	float: right;
+	margin-top: 15px;
+}
+#matriculas input[type='email']{
+	padding: 2px;
+	height: 25px;
+	width: 250px;
+}
+#matriculas button{
+	padding: 2px;
+	height: 35px;
+	width: 250px;
+	background-color:#005883;
+}
+/*cajas*/
+#cajas{
+	margin-top: 20px;
+}
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+}
+
+/*lateral*/
+aside#lateral{
+	float: right;
+	width: 50%;
+	margin-top: 110px;
+	font-size: 21.5px;
+}
+aside#center{
+	float: right;
+	width: 70%;
+	margin-top: 10px;
+	font-size: 21.5px;
+}
+aside{
+	width: 100%;
+	margin-top: 110px;
+	font-size: 21.5px;
+}
+.oscuro{
+	padding: 15px;
+	background-color: #808080;
+	color: #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*main-col*/
+article#main-col{
+	float: left;
+	width: 50%;
+	font-size: 30px;
+}
+article#columna{
+	float: center;
+	width: 100%;
+	font-size: 20px;
+}
+
+/*autores*/
+table td{
+	padding: 3px 20px 3px 20px;
+}
+table thead{
+	background-color: #333333;
+}
+table tbody{
+	text-align: left;
+}
+table{
+	font-family: verdana;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+/*footer*/
+footer{
+	text-align: center;
+	padding: 10px;
+}
+
+
+/* menu*/
+}
+.menu ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style:none;
+}
+.menu a {
+		display: inline;
+		padding: 0;
+		background-color: #e6ac00;
+		text-decoration:none;
+		color: #fff;
+}
+
+.menu a:hover {
+	background-color: #CC673B;
+}
+.menu ul li ul {
+	display: none;
+	position: absolute;
+	min-width: : 140px;
+}
+.menu li:hover > ul{
+	display: block;
+}
+.menu li ul li{
+	position: relative;
+}
+.menu li ul li ul{
+	right: -140px;
+	top: 0px;
+}
